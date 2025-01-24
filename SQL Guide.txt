@@ -1,0 +1,75 @@
+Relational DB - MySQL, PostgreSQL etc.
+Non-Relational DB - Mongo DB.
+
+USE keyword - Means currently we have to do all things in this DB
+CHAR(10) , VARCHAR(10) - CHAR means it will take all the space either you are using or not, but in VARCHAR it will take only space, which we are using.
+
+IF NOT EXISTS - Means suppose same name database if exists in that App so it will not create that DB
+
+DROP - for Delete Anything
+
+TRUNCATE TABLE - for Delete Tables Data's not Entire Table
+
+SHOW - Show Inside Table Content
+
+SELECT * - Means show all the content of that Table or DB
+
+DISTINCT - Is used to return only distinct (different) values (Ignore Duplicates)
+
+INSERT INTO - Means we have to Add Data in Table or DB
+
+DEFAULT - salary INT DEFAULT 100 (While Creating Table we can give some default value for that)
+
+CHECK - (age >=18 AND city="Mumbai")
+
+WHERE - marks > 80, 
+        city = "Mumbai" 
+WHERE keyword cannot be used with aggregate functions.
+
+HAVING - 
+
+LIMIT - SELECT * students LIMIT 10
+
+GROUP BY - If we need Any Specific Colum (Group wise)
+
+UPDATE students 
+SET grade = "O" | marks = 82
+WHERE grade = "A" | rollno = 50
+
+DELETE students
+WHERE marks < 33
+
+CASCADE - Using with FOREIGN KEY, suppose we need to change old and new data
+
+ORDER BY () DESC, ASC
+
+PRIMARY KEY - Means If we set Primary key for any row value, so that uniquely identifies each row - PRIMARY KEY(is, name)
+
+UNIQUE - Means we have to give unique values
+
+NOT NULL - Means it is Mandatory field, we cannot leave it Empty 
+
+Constraints - NOT NULL, UNIQUE, PRIMARY KEY 
+
+ALTER TABLE - If we need to add column In Existing Table -  We can perform multiple things using ALTER - MODIFY, CHANGE, DROP, RENAME
+ALTER Table_Name
+ADD COLUMN column_name datatype constraint
+
+INNER JOIN - Means common data within 2 columns or Tables
+
+AS - Means Temp name of any columns or table like (students as s)
+
+UNION - Gives the Unique Records of Multiple Tables, We can Perform FULL JOIN Using UNION
+
+Sub Queries - Means if we want to add some logic in our WHERE condition we can directly right inside the WHERE for Dynamic Values
+
+VIEW - Means we can create Virtual(Temp) Table, basically suppose we have to hide some columns in this Table and sends to others.
+
+LIKE - SELECT * FROM Customers
+       WHERE CustomerName LIKE 'a%';
+
+GRANT - 
+
+REVOKE - 
+
+ROLL BACK - 

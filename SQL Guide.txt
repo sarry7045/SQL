@@ -26,11 +26,11 @@ WHERE - marks > 80,
         city = "Mumbai" 
 WHERE keyword cannot be used with aggregate functions.
 
-HAVING - 
+HAVING - We can use as a Filter with Group BY
 
 LIMIT - SELECT * students LIMIT 10
 
-GROUP BY - If we need Any Specific Colum (Group wise)
+GROUP BY - If we need Any Specific Colum (Group wise) - Example - Number of Credit Card User in the table
 
 UPDATE students 
 SET grade = "O" | marks = 82
@@ -67,6 +67,24 @@ VIEW - Means we can create Virtual(Temp) Table, basically suppose we have to hid
 
 LIKE - SELECT * FROM Customers
        WHERE CustomerName LIKE 'a%';
+
+EXTRACT - Use for date and time
+
+OVER Clause = Windows Function
+
+CASE - Conditions like If Else
+
+Data Cleansing and Manipulation - Format the Data, Remove Duplicates, Structured Data etc.
+
+Regular Expressions - Find string n all Like give me the word Start with S and end with J etc etc.
+
+Common Table Expression - Always start with with, basically we can create one temporary table and use it multiple times
+
+Materialized Views - Means Suppose we applies multiple filter to find data's and we can save that data as buffer/cache for future use. So we don't hit the big query again n again
+
+
+
+
 
 GRANT - 
 

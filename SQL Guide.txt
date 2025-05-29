@@ -57,7 +57,7 @@ ADD COLUMN column_name datatype constraint
 
 INNER JOIN - Means common data within 2 columns or Tables
 
-AS - Means Temp name of any columns or table like (students as s)
+AS - Means Temp name of any columns or table like (students as s) - Like create new Variable Type - and We cannot use this in Having
 
 UNION - Gives the Unique Records of Multiple Tables, We can Perform FULL JOIN Using UNION
 
